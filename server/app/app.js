@@ -1,4 +1,3 @@
-
 const WebSocket = require('ws');
 const fs = require('fs');
 const https = require('https');
@@ -34,5 +33,5 @@ wss.on('connection', function connection(ws) {
 });
 
 server.listen(443, () => {
-    logger.info('Server is running on https://clouddata.thebloxers998.org and port 443');
+    logger.info('Server is running on wss://clouddata.thebloxers998.org and port 443');
 });
